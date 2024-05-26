@@ -1,16 +1,24 @@
-# simple_reminder_app
+# A simple reminder app
 
-A new Flutter project.
+This is a very simple reminder app I made based on the given requirements for an internship, to see whether I'm good enough or not. 
 
-## Getting Started
+Create a simple reminder application. A person has to be reminded on the below activities on daily basis in a span of 24 hour:  
 
-This project is a starting point for a Flutter application.
+[Day of the week]  
+Wake up   
+• Go to gym   
+• Breakfast  
+• Meetings  
+• Lunch  
+• Quick nap   
+• Go to library  
+• Dinner  
+• Go to sleep  
 
-A few resources to get you started if this is your first Flutter project:
+The UI should be based on only drop-down lists for selecting the day of the week, choose the time and the choice of activities as given below. Once the time is up the app should play a sound / chime.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+[Drop-down for day] : [Drop-down for choosing the time (clock widget is preferred)] : [Drop-down containing the list of above activities]
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Made for windows. 
+
+No library was used to schedule alarms. Logic is original, and also probably not the most efficient way to do it. Its the first thing I though of and it works. 
